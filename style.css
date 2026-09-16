@@ -68,3 +68,130 @@ button:not(#butao1) {
     color: white;
     margin-left: 10px;
 }
+.sectionnumber {
+    background: #e0e0e0;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    border-radius: 8px;
+    margin: 40px 300px; 
+    padding: 20px 40px; 
+}
+
+.caonteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.numbers {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0A3663;
+    margin: 0;
+}
+
+.texto {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #4A5568; 
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+.section-projetos {
+    margin: 60px 300px;
+    padding: 24px;
+    font-family: sans-serif;
+}
+
+.cabecalho-projetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.titulo-recentes {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0A3663;
+}
+
+.subtitulo-construidos {
+    font-size: 14px;
+    color: #4A5568;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 25px 20px;
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tag-card {
+    border: 1px solid #00A896;
+    color: #00A896;
+    border-radius: 20px;
+    padding: 4px 14px;
+    align-self: flex-start;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titulo-card {
+    font-size: 18px;
+    color: #0A3663;
+    margin: 0;
+}
+
+.texto-card {
+    font-size: 14px;
+    color: #4A5568;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.rodape-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 12px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.tech {
+    color: #4A5568;
+    font-weight: 500;
+}
+
+.link-codigo {
+    color: #00A896;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-codigo:hover {
+    text-decoration: underline;
+}
+
+.linha-divisoria {
+    border: none;
+    border-top: 2px solid #000000;
+    text-decoration-thickness
+}
